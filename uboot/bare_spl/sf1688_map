@@ -1,0 +1,921 @@
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./main.o
+ .data          0x0000000000000000        0x0 ./main.o
+ .bss           0x0000000000000000        0x0 ./main.o
+ .reginfo       0x0000000000000000       0x18 ./main.o
+ .pdr           0x0000000000000000       0xc0 ./main.o
+ .text.__div64_32
+                0x0000000000000000      0x114 ./main.o
+ .text          0x0000000000000000        0x0 ./common/sys_manager.o
+ .data          0x0000000000000000        0x0 ./common/sys_manager.o
+ .bss           0x0000000000000000        0x0 ./common/sys_manager.o
+ .reginfo       0x0000000000000000       0x18 ./common/sys_manager.o
+ .pdr           0x0000000000000000      0x400 ./common/sys_manager.o
+ .text.sys_gdu_reset
+                0x0000000000000000       0x48 ./common/sys_manager.o
+ .text.sys_wifi_scdma_reset
+                0x0000000000000000        0x8 ./common/sys_manager.o
+ .text.sys_reboot
+                0x0000000000000000       0x14 ./common/sys_manager.o
+ .text          0x0000000000000000        0x0 ./common/pad.o
+ .data          0x0000000000000000        0x0 ./common/pad.o
+ .bss           0x0000000000000000        0x0 ./common/pad.o
+ .reginfo       0x0000000000000000       0x18 ./common/pad.o
+ .pdr           0x0000000000000000       0xe0 ./common/pad.o
+ .text.sf_sw_oen_set
+                0x0000000000000000       0xcc ./common/pad.o
+ .text.sf_sw_ie_set
+                0x0000000000000000       0xcc ./common/pad.o
+ .text.sf_sw_sel_set
+                0x0000000000000000       0xcc ./common/pad.o
+ .text          0x0000000000000000        0x0 ./common/clk.o
+ .data          0x0000000000000000        0x0 ./common/clk.o
+ .bss           0x0000000000000000        0x0 ./common/clk.o
+ .reginfo       0x0000000000000000       0x18 ./common/clk.o
+ .pdr           0x0000000000000000       0x40 ./common/clk.o
+ .text          0x0000000000000000        0x0 ./ddr/ddr_init.o
+ .data          0x0000000000000000        0x0 ./ddr/ddr_init.o
+ .bss           0x0000000000000000        0x0 ./ddr/ddr_init.o
+ .reginfo       0x0000000000000000       0x18 ./ddr/ddr_init.o
+ .pdr           0x0000000000000000       0x40 ./ddr/ddr_init.o
+ .text          0x0000000000000000        0x0 ./ddr/ddr_common.o
+ .data          0x0000000000000000        0x0 ./ddr/ddr_common.o
+ .bss           0x0000000000000000        0x0 ./ddr/ddr_common.o
+ .reginfo       0x0000000000000000       0x18 ./ddr/ddr_common.o
+ .pdr           0x0000000000000000       0xe0 ./ddr/ddr_common.o
+ .text.ddr_common_init
+                0x0000000000000000       0x90 ./ddr/ddr_common.o
+ .bss.clks      0x0000000000000000       0x40 ./ddr/ddr_common.o
+ .text          0x0000000000000000        0x0 ./ddr/ddr2_em68b16cwqh.o
+ .data          0x0000000000000000        0x0 ./ddr/ddr2_em68b16cwqh.o
+ .bss           0x0000000000000000        0x0 ./ddr/ddr2_em68b16cwqh.o
+ .reginfo       0x0000000000000000       0x18 ./ddr/ddr2_em68b16cwqh.o
+ .pdr           0x0000000000000000       0x20 ./ddr/ddr2_em68b16cwqh.o
+ .text          0x0000000000000000        0x0 spi/flash.o
+ .data          0x0000000000000000        0x0 spi/flash.o
+ .bss           0x0000000000000000        0x0 spi/flash.o
+ .reginfo       0x0000000000000000       0x18 spi/flash.o
+ .pdr           0x0000000000000000       0xe0 spi/flash.o
+ .text.SPI_FLASH_Write
+                0x0000000000000000      0x11c spi/flash.o
+ .text.SPI_FLASH_Erase
+                0x0000000000000000      0x158 spi/flash.o
+ .text          0x0000000000000000        0x0 spi/nand_ecc.o
+ .data          0x0000000000000000        0x0 spi/nand_ecc.o
+ .bss           0x0000000000000000        0x0 spi/nand_ecc.o
+ .reginfo       0x0000000000000000       0x18 spi/nand_ecc.o
+ .pdr           0x0000000000000000        0x0 spi/nand_ecc.o
+ .mdebug.abi32  0x0000000000000000        0x0 spi/nand_ecc.o
+ .debug_info    0x0000000000000000       0x6d spi/nand_ecc.o
+ .debug_abbrev  0x0000000000000000       0x3e spi/nand_ecc.o
+ .debug_aranges
+                0x0000000000000000       0x18 spi/nand_ecc.o
+ .debug_line    0x0000000000000000       0x39 spi/nand_ecc.o
+ .debug_str     0x0000000000000000      0x162 spi/nand_ecc.o
+ .comment       0x0000000000000000       0x35 spi/nand_ecc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 spi/nand_ecc.o
+ .gnu.attributes
+                0x0000000000000000       0x10 spi/nand_ecc.o
+ .text          0x0000000000000000        0x0 spi/spi.o
+ .data          0x0000000000000000        0x0 spi/spi.o
+ .bss           0x0000000000000000        0x0 spi/spi.o
+ .reginfo       0x0000000000000000       0x18 spi/spi.o
+ .pdr           0x0000000000000000       0xc0 spi/spi.o
+ .text.SPI_Enable
+                0x0000000000000000       0x14 spi/spi.o
+ .text.SPI_Disable
+                0x0000000000000000       0x18 spi/spi.o
+ .data._spi_radio
+                0x0000000000000000        0x4 spi/spi.o
+ .text          0x0000000000000000        0x0 spi/spi-nand-base.o
+ .data          0x0000000000000000        0x0 spi/spi-nand-base.o
+ .bss           0x0000000000000000        0x0 spi/spi-nand-base.o
+ .reginfo       0x0000000000000000       0x18 spi/spi-nand-base.o
+ .pdr           0x0000000000000000       0xa0 spi/spi-nand-base.o
+ .text.SPI_NAND_write
+                0x0000000000000000        0x8 spi/spi-nand-base.o
+ .text.SPI_NAND_Erase
+                0x0000000000000000        0x8 spi/spi-nand-base.o
+ .text.SPI_NAND_set_soft_ecc
+                0x0000000000000000        0x8 spi/spi-nand-base.o
+ .text.SPI_NAND_get_soft_ecc
+                0x0000000000000000        0x8 spi/spi-nand-base.o
+ .text          0x0000000000000000        0x0 spi/spi-nand-cmd.o
+ .data          0x0000000000000000        0x0 spi/spi-nand-cmd.o
+ .bss           0x0000000000000000        0x0 spi/spi-nand-cmd.o
+ .reginfo       0x0000000000000000       0x18 spi/spi-nand-cmd.o
+ .pdr           0x0000000000000000        0x0 spi/spi-nand-cmd.o
+ .mdebug.abi32  0x0000000000000000        0x0 spi/spi-nand-cmd.o
+ .debug_info    0x0000000000000000       0x7b spi/spi-nand-cmd.o
+ .debug_abbrev  0x0000000000000000       0x3e spi/spi-nand-cmd.o
+ .debug_aranges
+                0x0000000000000000       0x18 spi/spi-nand-cmd.o
+ .debug_line    0x0000000000000000       0x39 spi/spi-nand-cmd.o
+ .debug_str     0x0000000000000000      0x174 spi/spi-nand-cmd.o
+ .comment       0x0000000000000000       0x35 spi/spi-nand-cmd.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 spi/spi-nand-cmd.o
+ .gnu.attributes
+                0x0000000000000000       0x10 spi/spi-nand-cmd.o
+ .text          0x0000000000000000        0x0 ./uart/uart.o
+ .data          0x0000000000000000        0x0 ./uart/uart.o
+ .bss           0x0000000000000000        0x0 ./uart/uart.o
+ .reginfo       0x0000000000000000       0x18 ./uart/uart.o
+ .pdr           0x0000000000000000      0x180 ./uart/uart.o
+ .text.uart_getc
+                0x0000000000000000       0x7c ./uart/uart.o
+ .text.uart_getc_mdelay
+                0x0000000000000000       0xa4 ./uart/uart.o
+ .text.uart_dump_all_reg
+                0x0000000000000000        0x8 ./uart/uart.o
+ .text.uart_rx_debug_msg
+                0x0000000000000000       0x44 ./uart/uart.o
+ .text.uart_init
+                0x0000000000000000       0xbc ./uart/uart.o
+ .text.uart_tx_msg
+                0x0000000000000000      0x148 ./uart/uart.o
+ .text.uart_rx_msg
+                0x0000000000000000       0x50 ./uart/uart.o
+ .text          0x0000000000000000        0x0 ./mmc/mmc.o
+ .data          0x0000000000000000        0x0 ./mmc/mmc.o
+ .bss           0x0000000000000000        0x0 ./mmc/mmc.o
+ .reginfo       0x0000000000000000       0x18 ./mmc/mmc.o
+ .pdr           0x0000000000000000      0x120 ./mmc/mmc.o
+ .text          0x0000000000000000        0x0 ./common/heap.o
+ .data          0x0000000000000000        0x0 ./common/heap.o
+ .bss           0x0000000000000000        0x0 ./common/heap.o
+ .reginfo       0x0000000000000000       0x18 ./common/heap.o
+ .pdr           0x0000000000000000       0xc0 ./common/heap.o
+ .text.free     0x0000000000000000       0x50 ./common/heap.o
+ .text.xPortGetFreeHeapSize
+                0x0000000000000000        0xc ./common/heap.o
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x0000000000000000        0xc ./common/heap.o
+ .text.vPortInitialiseBlocks
+                0x0000000000000000        0x8 ./common/heap.o
+ .text          0x0000000000000000        0x0 ./common/stdio.o
+ .data          0x0000000000000000        0x0 ./common/stdio.o
+ .bss           0x0000000000000000        0x0 ./common/stdio.o
+ .reginfo       0x0000000000000000       0x18 ./common/stdio.o
+ .pdr           0x0000000000000000       0xa0 ./common/stdio.o
+ .text.putchar  0x0000000000000000       0x50 ./common/stdio.o
+ .data          0x0000000000000000        0x0 ./arch/mips/cpu/start.o
+ .bss           0x0000000000000000        0x0 ./arch/mips/cpu/start.o
+ .reginfo       0x0000000000000000       0x18 ./arch/mips/cpu/start.o
+ .pdr           0x0000000000000000       0x20 ./arch/mips/cpu/start.o
+ .data          0x0000000000000000        0x0 ./arch/mips/cpu/init_cp0.o
+ .bss           0x0000000000000000        0x0 ./arch/mips/cpu/init_cp0.o
+ .reginfo       0x0000000000000000       0x18 ./arch/mips/cpu/init_cp0.o
+ .pdr           0x0000000000000000       0x20 ./arch/mips/cpu/init_cp0.o
+ .data          0x0000000000000000        0x0 ./arch/mips/cpu/copy_c2_ram.o
+ .bss           0x0000000000000000        0x0 ./arch/mips/cpu/copy_c2_ram.o
+ .reginfo       0x0000000000000000       0x18 ./arch/mips/cpu/copy_c2_ram.o
+ .pdr           0x0000000000000000       0x20 ./arch/mips/cpu/copy_c2_ram.o
+ .data          0x0000000000000000        0x0 ./arch/mips/cpu/cpu_timer.o
+ .bss           0x0000000000000000        0x0 ./arch/mips/cpu/cpu_timer.o
+ .reginfo       0x0000000000000000       0x18 ./arch/mips/cpu/cpu_timer.o
+ .pdr           0x0000000000000000       0x40 ./arch/mips/cpu/cpu_timer.o
+ .data          0x0000000000000000        0x0 ./arch/mips/lib/init_L2_CM2.o
+ .bss           0x0000000000000000        0x0 ./arch/mips/lib/init_L2_CM2.o
+ .reginfo       0x0000000000000000       0x18 ./arch/mips/lib/init_L2_CM2.o
+ .pdr           0x0000000000000000       0x60 ./arch/mips/lib/init_L2_CM2.o
+ .data          0x0000000000000000        0x0 ./arch/mips/lib/init_caches.o
+ .bss           0x0000000000000000        0x0 ./arch/mips/lib/init_caches.o
+ .reginfo       0x0000000000000000       0x18 ./arch/mips/lib/init_caches.o
+ .pdr           0x0000000000000000       0x80 ./arch/mips/lib/init_caches.o
+ .text          0x0000000000000000       0xb0 ./common/memset.o
+ .data          0x0000000000000000        0x0 ./common/memset.o
+ .bss           0x0000000000000000        0x0 ./common/memset.o
+ .reginfo       0x0000000000000000       0x18 ./common/memset.o
+ .pdr           0x0000000000000000       0x20 ./common/memset.o
+ .debug_line    0x0000000000000000       0x6a ./common/memset.o
+ .debug_info    0x0000000000000000       0x87 ./common/memset.o
+ .debug_abbrev  0x0000000000000000       0x14 ./common/memset.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./common/memset.o
+ .data          0x0000000000000000        0x0 ./common/memcpy.o
+ .bss           0x0000000000000000        0x0 ./common/memcpy.o
+ .reginfo       0x0000000000000000       0x18 ./common/memcpy.o
+ .pdr           0x0000000000000000       0x20 ./common/memcpy.o
+ .text          0x0000000000000000       0xa0 ./common/memcmp.o
+ .data          0x0000000000000000        0x0 ./common/memcmp.o
+ .bss           0x0000000000000000        0x0 ./common/memcmp.o
+ .reginfo       0x0000000000000000       0x18 ./common/memcmp.o
+ .pdr           0x0000000000000000       0x20 ./common/memcmp.o
+ .debug_line    0x0000000000000000       0x64 ./common/memcmp.o
+ .debug_info    0x0000000000000000       0x87 ./common/memcmp.o
+ .debug_abbrev  0x0000000000000000       0x14 ./common/memcmp.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./common/memcmp.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./main.o
+LOAD ./common/sys_manager.o
+LOAD ./common/pad.o
+LOAD ./common/clk.o
+LOAD ./ddr/ddr_init.o
+LOAD ./ddr/ddr_common.o
+LOAD ./ddr/ddr2_em68b16cwqh.o
+LOAD spi/flash.o
+LOAD spi/nand_ecc.o
+LOAD spi/spi.o
+LOAD spi/spi-nand-base.o
+LOAD spi/spi-nand-cmd.o
+LOAD ./uart/uart.o
+LOAD ./mmc/mmc.o
+LOAD ./common/heap.o
+LOAD ./common/stdio.o
+LOAD ./arch/mips/cpu/start.o
+LOAD ./arch/mips/cpu/init_cp0.o
+LOAD ./arch/mips/cpu/copy_c2_ram.o
+LOAD ./arch/mips/cpu/cpu_timer.o
+LOAD ./arch/mips/lib/init_L2_CM2.o
+LOAD ./arch/mips/lib/init_caches.o
+LOAD ./common/memset.o
+LOAD ./common/memcpy.o
+LOAD ./common/memcmp.o
+                0x00000000bc004000                _monitor_flash = 0xbc004000
+
+.text_init      0x00000000bc004000      0x200
+                0x00000000bc004000                _ftext_init = ABSOLUTE (.)
+ ./arch/mips/cpu/start.o(.text)
+ .text          0x00000000bc004000      0x110 ./arch/mips/cpu/start.o
+                0x00000000bc004000                __reset_vector
+ ./arch/mips/cpu/init_cp0.o(.text)
+ .text          0x00000000bc004110       0x70 ./arch/mips/cpu/init_cp0.o
+                0x00000000bc004110                init_cp0
+ ./arch/mips/cpu/copy_c2_ram.o(.text)
+ .text          0x00000000bc004180       0x80 ./arch/mips/cpu/copy_c2_ram.o
+                0x00000000bc004180                copy_c2_ram
+                0x00000000bc004200                . = ALIGN (0x8)
+                0x00000000bc004200                _etext_init = ABSOLUTE (.)
+                0x00000000bc004200                _zap1 = ((_etext_init - _ftext_init) + _monitor_flash)
+                0x00000000bc004200                _start_rom_text = _zap1
+
+.text_rom       0x00000000bc004200     0x54b0
+                0x00000000bc004200                _ftext_rom = ABSOLUTE (.)
+ *(.text)
+ .text          0x00000000bc004200       0x50 ./arch/mips/cpu/cpu_timer.o
+                0x00000000bc004200                u_delay_cpu
+                0x00000000bc004228                m_delay_cpu
+ .text          0x00000000bc004250       0xc0 ./arch/mips/lib/init_L2_CM2.o
+                0x00000000bc004250                disable_L2
+                0x00000000bc00426c                enable_L2
+                0x00000000bc004284                init_L2
+ .text          0x00000000bc004310      0x1e0 ./arch/mips/lib/init_caches.o
+                0x00000000bc004310                init_icache
+                0x00000000bc0043a8                init_dcache
+                0x00000000bc004440                change_k0_cca
+                0x00000000bc004460                flush_dcache
+ .text          0x00000000bc0044f0      0x170 ./common/memcpy.o
+                0x00000000bc0044f0                memcpy
+ *(.text.*)
+ .text.flash_read
+                0x00000000bc004660       0x7c ./main.o
+ .text.load_image
+                0x00000000bc0046dc      0x134 ./main.o
+ .text.do_led.constprop.1
+                0x00000000bc004810       0xc8 ./main.o
+ .text.hang     0x00000000bc0048d8       0x1c ./main.o
+                0x00000000bc0048d8                hang
+ .text.startup.main
+                0x00000000bc0048f4      0x178 ./main.o
+                0x00000000bc0048f4                main
+ .text.sys_apb_reset_i2s
+                0x00000000bc004a6c       0x34 ./common/sys_manager.o
+                0x00000000bc004a6c                sys_apb_reset_i2s
+ .text.sys_apb_reset_i2c
+                0x00000000bc004aa0       0x34 ./common/sys_manager.o
+                0x00000000bc004aa0                sys_apb_reset_i2c
+ .text.sys_apb_reset_spi
+                0x00000000bc004ad4       0x34 ./common/sys_manager.o
+                0x00000000bc004ad4                sys_apb_reset_spi
+ .text.sys_apb_reset_uart
+                0x00000000bc004b08       0x34 ./common/sys_manager.o
+                0x00000000bc004b08                sys_apb_reset_uart
+ .text.sys_apb_reset_pcm
+                0x00000000bc004b3c       0x34 ./common/sys_manager.o
+                0x00000000bc004b3c                sys_apb_reset_pcm
+ .text.sys_apb_reset_pwm
+                0x00000000bc004b70       0x34 ./common/sys_manager.o
+                0x00000000bc004b70                sys_apb_reset_pwm
+ .text.sys_apb_reset_timer
+                0x00000000bc004ba4       0x34 ./common/sys_manager.o
+                0x00000000bc004ba4                sys_apb_reset_timer
+ .text.sys_apb_reset_watchdog
+                0x00000000bc004bd8       0x34 ./common/sys_manager.o
+                0x00000000bc004bd8                sys_apb_reset_watchdog
+ .text.sys_apb_reset_spdif
+                0x00000000bc004c0c       0x34 ./common/sys_manager.o
+                0x00000000bc004c0c                sys_apb_reset_spdif
+ .text.sys_gpio_reset
+                0x00000000bc004c40       0x38 ./common/sys_manager.o
+                0x00000000bc004c40                sys_gpio_reset
+ .text.sys_apb_bus_reset
+                0x00000000bc004c78       0x18 ./common/sys_manager.o
+                0x00000000bc004c78                sys_apb_bus_reset
+ .text.sys_apb_modules_reset
+                0x00000000bc004c90       0x68 ./common/sys_manager.o
+                0x00000000bc004c90                sys_apb_modules_reset
+ .text.sys_dma_reset
+                0x00000000bc004cf8       0x54 ./common/sys_manager.o
+                0x00000000bc004cf8                sys_dma_reset
+ .text.sys_module_select
+                0x00000000bc004d4c       0x34 ./common/sys_manager.o
+                0x00000000bc004d4c                sys_module_select
+ .text.sys_gmac_reset
+                0x00000000bc004d80       0x48 ./common/sys_manager.o
+                0x00000000bc004d80                sys_gmac_reset
+ .text.sys_usb_reset
+                0x00000000bc004dc8       0x34 ./common/sys_manager.o
+                0x00000000bc004dc8                sys_usb_reset
+ .text.sys_emmc_reset
+                0x00000000bc004dfc       0x34 ./common/sys_manager.o
+                0x00000000bc004dfc                sys_emmc_reset
+ .text.sys_sdio_reset
+                0x00000000bc004e30       0x40 ./common/sys_manager.o
+                0x00000000bc004e30                sys_sdio_reset
+ .text.sys_crypto_reset
+                0x00000000bc004e70       0x30 ./common/sys_manager.o
+                0x00000000bc004e70                sys_crypto_reset
+ .text.sys_wifi_1_reset
+                0x00000000bc004ea0       0x38 ./common/sys_manager.o
+                0x00000000bc004ea0                sys_wifi_1_reset
+ .text.sys_wifi_2_reset
+                0x00000000bc004ed8       0x38 ./common/sys_manager.o
+                0x00000000bc004ed8                sys_wifi_2_reset
+ .text.sys_catip_reset
+                0x00000000bc004f10       0x3c ./common/sys_manager.o
+                0x00000000bc004f10                sys_catip_reset
+ .text.sys_wifi_reset
+                0x00000000bc004f4c       0x30 ./common/sys_manager.o
+                0x00000000bc004f4c                sys_wifi_reset
+ .text.memory_soft_reset
+                0x00000000bc004f7c       0x2c ./common/sys_manager.o
+                0x00000000bc004f7c                memory_soft_reset
+ .text.bus_soft_reset
+                0x00000000bc004fa8       0x28 ./common/sys_manager.o
+                0x00000000bc004fa8                bus_soft_reset
+ .text.io_soft_reset
+                0x00000000bc004fd0       0x18 ./common/sys_manager.o
+                0x00000000bc004fd0                io_soft_reset
+ .text.sys_omini_phy_reset
+                0x00000000bc004fe8       0xc8 ./common/sys_manager.o
+                0x00000000bc004fe8                sys_omini_phy_reset
+ .text.sys_npu_reset
+                0x00000000bc0050b0       0x58 ./common/sys_manager.o
+                0x00000000bc0050b0                sys_npu_reset
+ .text.sys_init
+                0x00000000bc005108       0xc4 ./common/sys_manager.o
+                0x00000000bc005108                sys_init
+ .text.sf_pad_set_func
+                0x00000000bc0051cc      0x940 ./common/pad.o
+                0x00000000bc0051cc                sf_pad_set_func
+ .text.sf_pad_set_value
+                0x00000000bc005b0c       0x30 ./common/pad.o
+                0x00000000bc005b0c                sf_pad_set_value
+ .text.sf_pad_get_value
+                0x00000000bc005b3c       0x8c ./common/pad.o
+                0x00000000bc005b3c                sf_pad_get_value
+ .text.sf_module_set_pad_func
+                0x00000000bc005bc8      0x1bc ./common/pad.o
+                0x00000000bc005bc8                sf_module_set_pad_func
+ .text.clk_gating_init
+                0x00000000bc005d84       0xb8 ./common/clk.o
+                0x00000000bc005d84                clk_gating_init
+ .text.clk_update
+                0x00000000bc005e3c       0x78 ./common/clk.o
+                0x00000000bc005e3c                clk_update
+ .text.ddr_test
+                0x00000000bc005eb4      0x158 ./ddr/ddr_init.o
+                0x00000000bc005eb4                ddr_test
+ .text.ddr_init
+                0x00000000bc00600c       0xf4 ./ddr/ddr_init.o
+                0x00000000bc00600c                ddr_init
+ .text.set_umctl2_reg
+                0x00000000bc006100      0x56c ./ddr/ddr_common.o
+                0x00000000bc006100                set_umctl2_reg
+ .text.ddr_phy_init
+                0x00000000bc00666c      0x32c ./ddr/ddr_common.o
+                0x00000000bc00666c                ddr_phy_init
+ .text.umctl2_init_ddr
+                0x00000000bc006998       0x40 ./ddr/ddr_common.o
+                0x00000000bc006998                umctl2_init_ddr
+ .text.ddr_training
+                0x00000000bc0069d8       0xc0 ./ddr/ddr_common.o
+                0x00000000bc0069d8                ddr_training
+ .text.set_pll_ratio
+                0x00000000bc006a98       0xd0 ./ddr/ddr_common.o
+                0x00000000bc006a98                set_pll_ratio
+ .text.set_ddr_clock
+                0x00000000bc006b68       0x88 ./ddr/ddr_common.o
+                0x00000000bc006b68                set_ddr_clock
+ .text.ddr_set_timing
+                0x00000000bc006bf0       0xf4 ./ddr/ddr2_em68b16cwqh.o
+                0x00000000bc006bf0                ddr_set_timing
+ .text.spi_flash_read_write
+                0x00000000bc006ce4       0xc0 spi/flash.o
+ .text.spi_flash_write_common
+                0x00000000bc006da4      0x138 spi/flash.o
+ .text.spi_flash_write_bar
+                0x00000000bc006edc       0x34 spi/flash.o
+ .text.SPI_FLASH_Read
+                0x00000000bc006f10      0x108 spi/flash.o
+                0x00000000bc006f10                SPI_FLASH_Read
+ .text.SPI_FLASH_GetDeviceID
+                0x00000000bc007018       0x60 spi/flash.o
+                0x00000000bc007018                SPI_FLASH_GetDeviceID
+ .text.SPI_Init
+                0x00000000bc007078       0x44 spi/spi.o
+                0x00000000bc007078                SPI_Init
+ .text.SPI_cs_activate
+                0x00000000bc0070bc       0x3c spi/spi.o
+                0x00000000bc0070bc                SPI_cs_activate
+ .text.SPI_cs_deactivate
+                0x00000000bc0070f8        0xc spi/spi.o
+                0x00000000bc0070f8                SPI_cs_deactivate
+ .text.SPI_xfer
+                0x00000000bc007104      0x198 spi/spi.o
+                0x00000000bc007104                SPI_xfer
+ .text.SPI_NAND_read
+                0x00000000bc00729c        0x8 spi/spi-nand-base.o
+                0x00000000bc00729c                SPI_NAND_read
+ .text.uart_set_baud
+                0x00000000bc0072a4       0xa0 ./uart/uart.o
+ .text.uart_set_data_len
+                0x00000000bc007344       0xb4 ./uart/uart.o
+ .text.uart_set_parity
+                0x00000000bc0073f8       0xc8 ./uart/uart.o
+ .text.uart_init_debug_channel
+                0x00000000bc0074c0       0x90 ./uart/uart.o
+                0x00000000bc0074c0                uart_init_debug_channel
+ .text.uart_tx_debug_msg
+                0x00000000bc007550      0x120 ./uart/uart.o
+                0x00000000bc007550                uart_tx_debug_msg
+ .text.mmc_send_cmd
+                0x00000000bc007670       0x54 ./mmc/mmc.o
+ .text.mmc_wait_START
+                0x00000000bc0076c4       0x94 ./mmc/mmc.o
+ .text.mmc_clk_set
+                0x00000000bc007758      0x154 ./mmc/mmc.o
+ .text.mmc_wait_response
+                0x00000000bc0078ac       0xa8 ./mmc/mmc.o
+ .text.mmc_set_block_length
+                0x00000000bc007954       0x44 ./mmc/mmc.o
+ .text.mmc_set_block_count
+                0x00000000bc007998       0x44 ./mmc/mmc.o
+ .text.mmc_block_read
+                0x00000000bc0079dc      0x20c ./mmc/mmc.o
+ .text.mmc_initialization
+                0x00000000bc007be8      0x460 ./mmc/mmc.o
+                0x00000000bc007be8                mmc_initialization
+ .text.mmc_data_read
+                0x00000000bc008048      0x1c4 ./mmc/mmc.o
+                0x00000000bc008048                mmc_data_read
+ .text.prvInsertBlockIntoFreeList
+                0x00000000bc00820c       0x80 ./common/heap.o
+ .text.malloc   0x00000000bc00828c      0x1b4 ./common/heap.o
+                0x00000000bc00828c                malloc
+ .text.number   0x00000000bc008440      0x274 ./common/stdio.o
+ .text.vsprintf
+                0x00000000bc0086b4      0x778 ./common/stdio.o
+                0x00000000bc0086b4                vsprintf
+ .text.printf   0x00000000bc008e2c       0x88 ./common/stdio.o
+                0x00000000bc008e2c                printf
+ .text.puts     0x00000000bc008eb4       0x98 ./common/stdio.o
+                0x00000000bc008eb4                puts
+ *(.rodata)
+ *fill*         0x00000000bc008f4c        0x4 00000000
+ .rodata        0x00000000bc008f50       0x40 ./common/clk.o
+ *(.rodata.*)
+ .rodata.flash_read
+                0x00000000bc008f90       0x14 ./main.o
+ .rodata.str1.4
+                0x00000000bc008fa4      0x11c ./main.o
+ .rodata.__func__.3068
+                0x00000000bc0090c0       0x10 ./main.o
+ .rodata.str1.4
+                0x00000000bc0090d0       0x2a ./common/pad.o
+                                         0x2c (size before relaxing)
+ *fill*         0x00000000bc0090fa        0x2 00000000
+ .rodata.sf_pad_set_func
+                0x00000000bc0090fc       0x18 ./common/pad.o
+ .rodata.sf_module_set_pad_func
+                0x00000000bc009114       0x64 ./common/pad.o
+ .rodata.str1.4
+                0x00000000bc009178       0xf3 ./ddr/ddr_init.o
+                                         0xf4 (size before relaxing)
+ *fill*         0x00000000bc00926b        0x1 00000000
+ .rodata.str1.4
+                0x00000000bc00926c       0x4b ./ddr/ddr_common.o
+                                         0x4c (size before relaxing)
+ *fill*         0x00000000bc0092b7        0x1 00000000
+ .rodata.str1.4
+                0x00000000bc0092b8       0x44 ./ddr/ddr2_em68b16cwqh.o
+ .rodata.str1.4
+                0x00000000bc0092fc      0x129 spi/flash.o
+                                        0x12c (size before relaxing)
+ *fill*         0x00000000bc009425        0x3 00000000
+ .rodata.str1.4
+                0x00000000bc009428       0x51 spi/spi.o
+                                         0x54 (size before relaxing)
+ *fill*         0x00000000bc009479        0x3 00000000
+ .rodata.str1.4
+                0x00000000bc00947c       0x5b ./uart/uart.o
+                                         0x5c (size before relaxing)
+ *fill*         0x00000000bc0094d7        0x1 00000000
+ .rodata.uart_set_parity
+                0x00000000bc0094d8       0x14 ./uart/uart.o
+ .rodata.str1.4
+                0x00000000bc0094ec      0x166 ./mmc/mmc.o
+                                        0x168 (size before relaxing)
+ *fill*         0x00000000bc009652        0x2 00000000
+ .rodata.str1.4
+                0x00000000bc009654       0x58 ./common/stdio.o
+                0x00000000bc0096b0                . = ALIGN (0x8)
+ *fill*         0x00000000bc0096ac        0x4 00000000
+                0x00000000bc0096b0                _etext_rom = ABSOLUTE (.)
+                0x00000000bc0096b0                _zap2 = ((_etext_rom - _ftext_rom) + _zap1)
+                0x00000000bc0096b0                _start_ram_text = _zap2
+
+.eh_frame_hdr   0x00000000bc0096b0        0x0
+ .eh_frame_hdr  0x0000000000000000        0x0 ./common/memcmp.o
+
+.data           0x00000000bc0096b0      0x1f0
+                0x00000000bc0096b0                _fdata_ram = ABSOLUTE (.)
+ *(.data)
+ *(.data.*)
+ .data.ddr_800Mbps
+                0x00000000bc0096b0       0xa4 ./ddr/ddr2_em68b16cwqh.o
+ .data.ddr_667Mbps
+                0x00000000bc009754       0xa4 ./ddr/ddr2_em68b16cwqh.o
+ .data.ddr_533Mbps
+                0x00000000bc0097f8       0xa4 ./ddr/ddr2_em68b16cwqh.o
+ .data.sd_version_2
+                0x00000000bc00989c        0x4 ./mmc/mmc.o
+                0x00000000bc0098a0                . = ALIGN (0x8)
+                0x00000000bc011890                _gp = ABSOLUTE ((. + 0x7ff0))
+ *(.lit8)
+ *(.lit4)
+ *(.sdata)
+                0x00000000bc0098a0                . = ALIGN (0x8)
+                0x00000000bc0098a0                _edata_ram = ABSOLUTE (.)
+                0x00000000bc0098a0                _fbss = .
+
+.sbss
+ *(.sbss)
+ *(.scommon)
+
+.bss
+ *(.bss)
+ *(COMMON)
+
+.bss.mmc_no     0x00000000bc0098a0        0x4
+ .bss.mmc_no    0x00000000bc0098a0        0x4 ./mmc/mmc.o
+
+.bss.mmc_rca    0x00000000bc0098a4        0x4
+ .bss.mmc_rca   0x00000000bc0098a4        0x4 ./mmc/mmc.o
+
+.bss.xBlockAllocatedBit
+                0x00000000bc0098a8        0x4
+ .bss.xBlockAllocatedBit
+                0x00000000bc0098a8        0x4 ./common/heap.o
+
+.bss.xMinimumEverFreeBytesRemaining
+                0x00000000bc0098ac        0x4
+ .bss.xMinimumEverFreeBytesRemaining
+                0x00000000bc0098ac        0x4 ./common/heap.o
+
+.bss.xFreeBytesRemaining
+                0x00000000bc0098b0        0x4
+ .bss.xFreeBytesRemaining
+                0x00000000bc0098b0        0x4 ./common/heap.o
+
+.bss.pxEnd      0x00000000bc0098b4        0x4
+ .bss.pxEnd     0x00000000bc0098b4        0x4 ./common/heap.o
+
+.bss.xStart     0x00000000bc0098b8        0x8
+ .bss.xStart    0x00000000bc0098b8        0x8 ./common/heap.o
+
+.bss.sprint_buf
+                0x00000000bc0098c0      0x104
+ .bss.sprint_buf
+                0x00000000bc0098c0      0x104 ./common/stdio.o
+                0x00000000bc0099c8                . = ALIGN (0x8)
+                0x00000000bc0099c8                _end = .
+                0x00000000bc0099c8                _heap_start = .
+
+.gptab.sdata
+ *(.gptab.data)
+ *(.gptab.sdata)
+
+.gptab.sbss
+ *(.gptab.bss)
+ *(.gptab.sbss)
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+
+.eh_frame
+ *(.eh_frame)
+
+/DISCARD/
+ *(.reginfo)
+ *(.MIPS.abiflags)
+                0x00000000bc0099c8                _freemem = .
+OUTPUT(sf1688.elf elf32-tradlittlemips)
+
+.mdebug.abi32   0x0000000000000000        0x0
+ .mdebug.abi32  0x0000000000000000        0x0 ./main.o
+ .mdebug.abi32  0x0000000000000000        0x0 ./common/sys_manager.o
+ .mdebug.abi32  0x0000000000000000        0x0 ./common/pad.o
+ .mdebug.abi32  0x0000000000000000        0x0 ./common/clk.o
+ .mdebug.abi32  0x0000000000000000        0x0 ./ddr/ddr_init.o
+ .mdebug.abi32  0x0000000000000000        0x0 ./ddr/ddr_common.o
+ .mdebug.abi32  0x0000000000000000        0x0 ./ddr/ddr2_em68b16cwqh.o
+ .mdebug.abi32  0x0000000000000000        0x0 spi/flash.o
+ .mdebug.abi32  0x0000000000000000        0x0 spi/spi.o
+ .mdebug.abi32  0x0000000000000000        0x0 spi/spi-nand-base.o
+ .mdebug.abi32  0x0000000000000000        0x0 ./uart/uart.o
+ .mdebug.abi32  0x0000000000000000        0x0 ./mmc/mmc.o
+ .mdebug.abi32  0x0000000000000000        0x0 ./common/heap.o
+ .mdebug.abi32  0x0000000000000000        0x0 ./common/stdio.o
+
+.comment        0x0000000000000000       0x34
+ .comment       0x0000000000000000       0x34 ./main.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000000       0x35 ./common/sys_manager.o
+ .comment       0x0000000000000000       0x35 ./common/pad.o
+ .comment       0x0000000000000000       0x35 ./common/clk.o
+ .comment       0x0000000000000000       0x35 ./ddr/ddr_init.o
+ .comment       0x0000000000000000       0x35 ./ddr/ddr_common.o
+ .comment       0x0000000000000000       0x35 ./ddr/ddr2_em68b16cwqh.o
+ .comment       0x0000000000000000       0x35 spi/flash.o
+ .comment       0x0000000000000000       0x35 spi/spi.o
+ .comment       0x0000000000000000       0x35 spi/spi-nand-base.o
+ .comment       0x0000000000000000       0x35 ./uart/uart.o
+ .comment       0x0000000000000000       0x35 ./mmc/mmc.o
+ .comment       0x0000000000000000       0x35 ./common/heap.o
+ .comment       0x0000000000000000       0x35 ./common/stdio.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./common/sys_manager.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./common/pad.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./common/clk.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./ddr/ddr_init.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./ddr/ddr_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./ddr/ddr2_em68b16cwqh.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 spi/flash.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 spi/spi.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 spi/spi-nand-base.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./uart/uart.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./mmc/mmc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./common/heap.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./common/stdio.o
+
+.gnu.attributes
+                0x0000000000000000       0x10
+ .gnu.attributes
+                0x0000000000000000       0x10 ./main.o
+ .gnu.attributes
+                0x0000000000000010       0x10 ./common/sys_manager.o
+ .gnu.attributes
+                0x0000000000000020       0x10 ./common/pad.o
+ .gnu.attributes
+                0x0000000000000030       0x10 ./common/clk.o
+ .gnu.attributes
+                0x0000000000000040       0x10 ./ddr/ddr_init.o
+ .gnu.attributes
+                0x0000000000000050       0x10 ./ddr/ddr_common.o
+ .gnu.attributes
+                0x0000000000000060       0x10 ./ddr/ddr2_em68b16cwqh.o
+ .gnu.attributes
+                0x0000000000000070       0x10 spi/flash.o
+ .gnu.attributes
+                0x0000000000000080       0x10 spi/spi.o
+ .gnu.attributes
+                0x0000000000000090       0x10 spi/spi-nand-base.o
+ .gnu.attributes
+                0x00000000000000a0       0x10 ./uart/uart.o
+ .gnu.attributes
+                0x00000000000000b0       0x10 ./mmc/mmc.o
+ .gnu.attributes
+                0x00000000000000c0       0x10 ./common/heap.o
+ .gnu.attributes
+                0x00000000000000d0       0x10 ./common/stdio.o
+
+.debug_info     0x0000000000000000     0x6096
+ .debug_info    0x0000000000000000      0xc0c ./main.o
+ .debug_info    0x0000000000000c0c      0x4ff ./common/sys_manager.o
+ .debug_info    0x000000000000110b      0x5cc ./common/pad.o
+ .debug_info    0x00000000000016d7      0x156 ./common/clk.o
+ .debug_info    0x000000000000182d      0x566 ./ddr/ddr_init.o
+ .debug_info    0x0000000000001d93      0x7b7 ./ddr/ddr_common.o
+ .debug_info    0x000000000000254a      0x3bb ./ddr/ddr2_em68b16cwqh.o
+ .debug_info    0x0000000000002905      0xc37 spi/flash.o
+ .debug_info    0x000000000000353c      0x590 spi/spi.o
+ .debug_info    0x0000000000003acc      0x1d0 spi/spi-nand-base.o
+ .debug_info    0x0000000000003c9c      0x83e ./uart/uart.o
+ .debug_info    0x00000000000044da      0xdc3 ./mmc/mmc.o
+ .debug_info    0x000000000000529d      0x32d ./common/heap.o
+ .debug_info    0x00000000000055ca      0x6de ./common/stdio.o
+ .debug_info    0x0000000000005ca8       0x8d ./arch/mips/cpu/start.o
+ .debug_info    0x0000000000005d35       0x90 ./arch/mips/cpu/init_cp0.o
+ .debug_info    0x0000000000005dc5       0x93 ./arch/mips/cpu/copy_c2_ram.o
+ .debug_info    0x0000000000005e58       0x91 ./arch/mips/cpu/cpu_timer.o
+ .debug_info    0x0000000000005ee9       0x93 ./arch/mips/lib/init_L2_CM2.o
+ .debug_info    0x0000000000005f7c       0x93 ./arch/mips/lib/init_caches.o
+ .debug_info    0x000000000000600f       0x87 ./common/memcpy.o
+
+.debug_abbrev   0x0000000000000000     0x1ed2
+ .debug_abbrev  0x0000000000000000      0x3c5 ./main.o
+ .debug_abbrev  0x00000000000003c5      0x1c1 ./common/sys_manager.o
+ .debug_abbrev  0x0000000000000586      0x1c6 ./common/pad.o
+ .debug_abbrev  0x000000000000074c      0x119 ./common/clk.o
+ .debug_abbrev  0x0000000000000865      0x182 ./ddr/ddr_init.o
+ .debug_abbrev  0x00000000000009e7      0x2cb ./ddr/ddr_common.o
+ .debug_abbrev  0x0000000000000cb2      0x123 ./ddr/ddr2_em68b16cwqh.o
+ .debug_abbrev  0x0000000000000dd5      0x313 spi/flash.o
+ .debug_abbrev  0x00000000000010e8      0x2e3 spi/spi.o
+ .debug_abbrev  0x00000000000013cb       0xc6 spi/spi-nand-base.o
+ .debug_abbrev  0x0000000000001491      0x287 ./uart/uart.o
+ .debug_abbrev  0x0000000000001718      0x2fd ./mmc/mmc.o
+ .debug_abbrev  0x0000000000001a15      0x1f5 ./common/heap.o
+ .debug_abbrev  0x0000000000001c0a      0x23c ./common/stdio.o
+ .debug_abbrev  0x0000000000001e46       0x14 ./arch/mips/cpu/start.o
+ .debug_abbrev  0x0000000000001e5a       0x14 ./arch/mips/cpu/init_cp0.o
+ .debug_abbrev  0x0000000000001e6e       0x14 ./arch/mips/cpu/copy_c2_ram.o
+ .debug_abbrev  0x0000000000001e82       0x14 ./arch/mips/cpu/cpu_timer.o
+ .debug_abbrev  0x0000000000001e96       0x14 ./arch/mips/lib/init_L2_CM2.o
+ .debug_abbrev  0x0000000000001eaa       0x14 ./arch/mips/lib/init_caches.o
+ .debug_abbrev  0x0000000000001ebe       0x14 ./common/memcpy.o
+
+.debug_loc      0x0000000000000000     0x5284
+ .debug_loc     0x0000000000000000      0x617 ./main.o
+ .debug_loc     0x0000000000000617       0x59 ./common/sys_manager.o
+ .debug_loc     0x0000000000000670     0x109d ./common/pad.o
+ .debug_loc     0x000000000000170d      0x7af ./ddr/ddr_common.o
+ .debug_loc     0x0000000000001ebc       0x3f ./ddr/ddr2_em68b16cwqh.o
+ .debug_loc     0x0000000000001efb      0xb4d spi/flash.o
+ .debug_loc     0x0000000000002a48      0x293 spi/spi.o
+ .debug_loc     0x0000000000002cdb      0xb20 ./uart/uart.o
+ .debug_loc     0x00000000000037fb      0xaa9 ./mmc/mmc.o
+ .debug_loc     0x00000000000042a4      0x26c ./common/heap.o
+ .debug_loc     0x0000000000004510      0xd74 ./common/stdio.o
+
+.debug_aranges  0x0000000000000000      0x588
+ .debug_aranges
+                0x0000000000000000       0x48 ./main.o
+ .debug_aranges
+                0x0000000000000048      0x118 ./common/sys_manager.o
+ .debug_aranges
+                0x0000000000000160       0x50 ./common/pad.o
+ .debug_aranges
+                0x00000000000001b0       0x28 ./common/clk.o
+ .debug_aranges
+                0x00000000000001d8       0x28 ./ddr/ddr_init.o
+ .debug_aranges
+                0x0000000000000200       0x50 ./ddr/ddr_common.o
+ .debug_aranges
+                0x0000000000000250       0x20 ./ddr/ddr2_em68b16cwqh.o
+ .debug_aranges
+                0x0000000000000270       0x50 spi/flash.o
+ .debug_aranges
+                0x00000000000002c0       0x48 spi/spi.o
+ .debug_aranges
+                0x0000000000000308       0x40 spi/spi-nand-base.o
+ .debug_aranges
+                0x0000000000000348       0x78 ./uart/uart.o
+ .debug_aranges
+                0x00000000000003c0       0x60 ./mmc/mmc.o
+ .debug_aranges
+                0x0000000000000420       0x48 ./common/heap.o
+ .debug_aranges
+                0x0000000000000468       0x40 ./common/stdio.o
+ .debug_aranges
+                0x00000000000004a8       0x20 ./arch/mips/cpu/start.o
+ .debug_aranges
+                0x00000000000004c8       0x20 ./arch/mips/cpu/init_cp0.o
+ .debug_aranges
+                0x00000000000004e8       0x20 ./arch/mips/cpu/copy_c2_ram.o
+ .debug_aranges
+                0x0000000000000508       0x20 ./arch/mips/cpu/cpu_timer.o
+ .debug_aranges
+                0x0000000000000528       0x20 ./arch/mips/lib/init_L2_CM2.o
+ .debug_aranges
+                0x0000000000000548       0x20 ./arch/mips/lib/init_caches.o
+ .debug_aranges
+                0x0000000000000568       0x20 ./common/memcpy.o
+
+.debug_ranges   0x0000000000000000      0xa50
+ .debug_ranges  0x0000000000000000      0x120 ./main.o
+ .debug_ranges  0x0000000000000120      0x138 ./common/sys_manager.o
+ .debug_ranges  0x0000000000000258       0xa0 ./common/pad.o
+ .debug_ranges  0x00000000000002f8       0x18 ./common/clk.o
+ .debug_ranges  0x0000000000000310       0x18 ./ddr/ddr_init.o
+ .debug_ranges  0x0000000000000328       0xa0 ./ddr/ddr_common.o
+ .debug_ranges  0x00000000000003c8       0x10 ./ddr/ddr2_em68b16cwqh.o
+ .debug_ranges  0x00000000000003d8      0x1b0 spi/flash.o
+ .debug_ranges  0x0000000000000588       0x58 spi/spi.o
+ .debug_ranges  0x00000000000005e0       0x30 spi/spi-nand-base.o
+ .debug_ranges  0x0000000000000610      0x170 ./uart/uart.o
+ .debug_ranges  0x0000000000000780      0x200 ./mmc/mmc.o
+ .debug_ranges  0x0000000000000980       0x38 ./common/heap.o
+ .debug_ranges  0x00000000000009b8       0x98 ./common/stdio.o
+
+.debug_line     0x0000000000000000     0x2640
+ .debug_line    0x0000000000000000      0x2b1 ./main.o
+ .debug_line    0x00000000000002b1      0x3fd ./common/sys_manager.o
+ .debug_line    0x00000000000006ae      0x64b ./common/pad.o
+ .debug_line    0x0000000000000cf9       0xaa ./common/clk.o
+ .debug_line    0x0000000000000da3      0x121 ./ddr/ddr_init.o
+ .debug_line    0x0000000000000ec4      0x2d6 ./ddr/ddr_common.o
+ .debug_line    0x000000000000119a       0x9a ./ddr/ddr2_em68b16cwqh.o
+ .debug_line    0x0000000000001234      0x21e spi/flash.o
+ .debug_line    0x0000000000001452      0x158 spi/spi.o
+ .debug_line    0x00000000000015aa       0xaf spi/spi-nand-base.o
+ .debug_line    0x0000000000001659      0x2e9 ./uart/uart.o
+ .debug_line    0x0000000000001942      0x466 ./mmc/mmc.o
+ .debug_line    0x0000000000001da8      0x1d3 ./common/heap.o
+ .debug_line    0x0000000000001f7b      0x356 ./common/stdio.o
+ .debug_line    0x00000000000022d1       0x78 ./arch/mips/cpu/start.o
+ .debug_line    0x0000000000002349       0x62 ./arch/mips/cpu/init_cp0.o
+ .debug_line    0x00000000000023ab       0x63 ./arch/mips/cpu/copy_c2_ram.o
+ .debug_line    0x000000000000240e       0x59 ./arch/mips/cpu/cpu_timer.o
+ .debug_line    0x0000000000002467       0x7c ./arch/mips/lib/init_L2_CM2.o
+ .debug_line    0x00000000000024e3       0xc4 ./arch/mips/lib/init_caches.o
+ .debug_line    0x00000000000025a7       0x99 ./common/memcpy.o
+
+.debug_str      0x0000000000000000     0x12fb
+ .debug_str     0x0000000000000000      0x560 ./main.o
+                                        0x5e8 (size before relaxing)
+ .debug_str     0x0000000000000560      0x252 ./common/sys_manager.o
+                                        0x3b5 (size before relaxing)
+ .debug_str     0x00000000000007b2       0x86 ./common/pad.o
+                                        0x3c1 (size before relaxing)
+ .debug_str     0x0000000000000838       0x1d ./common/clk.o
+                                        0x1a8 (size before relaxing)
+ .debug_str     0x0000000000000855      0x13e ./ddr/ddr_init.o
+                                        0x2d9 (size before relaxing)
+ .debug_str     0x0000000000000993       0x71 ./ddr/ddr_common.o
+                                        0x320 (size before relaxing)
+ .debug_str     0x0000000000000a04       0x3b ./ddr/ddr2_em68b16cwqh.o
+                                        0x27b (size before relaxing)
+ .debug_str     0x0000000000000a3f      0x1d5 spi/flash.o
+                                        0x39e (size before relaxing)
+ .debug_str     0x0000000000000c14      0x127 spi/spi.o
+                                        0x375 (size before relaxing)
+ .debug_str     0x0000000000000d3b       0x5e spi/spi-nand-base.o
+                                        0x1f0 (size before relaxing)
+ .debug_str     0x0000000000000d99       0xfb ./uart/uart.o
+                                        0x2be (size before relaxing)
+ .debug_str     0x0000000000000e94      0x203 ./mmc/mmc.o
+                                        0x3f6 (size before relaxing)
+ .debug_str     0x0000000000001097      0x1c6 ./common/heap.o
+                                        0x330 (size before relaxing)
+ .debug_str     0x000000000000125d       0x9e ./common/stdio.o
+                                        0x254 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0xc44
+ .debug_frame   0x0000000000000000       0xd0 ./main.o
+ .debug_frame   0x00000000000000d0      0x260 ./common/sys_manager.o
+ .debug_frame   0x0000000000000330       0xa8 ./common/pad.o
+ .debug_frame   0x00000000000003d8       0x3c ./common/clk.o
+ .debug_frame   0x0000000000000414       0x58 ./ddr/ddr_init.o
+ .debug_frame   0x000000000000046c       0xb8 ./ddr/ddr_common.o
+ .debug_frame   0x0000000000000524       0x34 ./ddr/ddr2_em68b16cwqh.o
+ .debug_frame   0x0000000000000558      0x13c spi/flash.o
+ .debug_frame   0x0000000000000694       0x94 spi/spi.o
+ .debug_frame   0x0000000000000728       0x60 spi/spi-nand-base.o
+ .debug_frame   0x0000000000000788      0x1e4 ./uart/uart.o
+ .debug_frame   0x000000000000096c      0x18c ./mmc/mmc.o
+ .debug_frame   0x0000000000000af8       0x8c ./common/heap.o
+ .debug_frame   0x0000000000000b84       0xc0 ./common/stdio.o

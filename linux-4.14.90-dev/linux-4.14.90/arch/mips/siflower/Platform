@@ -1,0 +1,11 @@
+#
+# Siflower SoC common stuff
+#
+platform-$(CONFIG_SIFLOWER)	+= siflower/
+cflags-$(CONFIG_SIFLOWER)	+= -I$(srctree)/arch/mips/include/asm/mach-siflower
+
+load-$(CONFIG_SIFLOWER)		+= 0xffffffff80100000
+zload-$(CONFIG_SIFLOWER)	+= 0xffffffff81000000
+
+cflags-$(CONFIG_SOC_SF16A18)	+= -I$(srctree)/arch/mips/include/asm/mach-siflower
+
