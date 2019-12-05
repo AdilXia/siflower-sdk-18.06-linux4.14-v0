@@ -2,15 +2,18 @@
 
 . /lib/functions.sh
 
+INSMOD="/sbin/insmod"
+RMMOD="/sbin/rmmod"
+
 load_firmware()
 {
-    cmd="/usr/sbin/insmod startcore"
+    cmd="/sbin/insmod startcore"
     eval $cmd
 }
 
 unload_firmware()
 {
-    cmd="/usr/sbin/rmmod startcore"
+    cmd="/sbin/rmmod startcore"
     eval $cmd
 }
 
@@ -22,7 +25,7 @@ insmod_rf() {
 }
 
 unload_rf() {
-    cmd="/usr/sbin/rmmod sf16a18_rf"
+    cmd="/sbin/rmmod sf16a18_rf"
     eval $cmd
     sleep 1
 }
@@ -81,7 +84,7 @@ insmod_umac(){
         fi
     fi
 
-    cmd="/usr/sbin/insmod $1 $extra_user_args $all_modparams"
+    cmd="/sbin/insmod $1 $extra_user_args $all_modparams"
     eval $cmd
 }
 
@@ -107,12 +110,12 @@ insmod_smac() {
 }
 
 unload_smac_lb(){
-    cmd="/usr/sbin/rmmod sf16a18_lb_smac"
+    cmd="/sbin/rmmod sf16a18_lb_smac"
     eval $cmd
 }
 
 unload_smac_hb(){
-    cmd="/usr/sbin/rmmod sf16a18_hb_smac"
+    cmd="/sbin/rmmod sf16a18_hb_smac"
     eval $cmd
 }
 
@@ -135,12 +138,12 @@ insmod_fmac() {
 }
 
 unload_fmac_lb(){
-    cmd="/usr/sbin/rmmod sf16a18_lb_fmac"
+    cmd="/sbin/rmmod sf16a18_lb_fmac"
     eval $cmd
 }
 
 unload_fmac_hb(){
-    cmd="/usr/sbin/rmmod sf16a18_hb_fmac"
+    cmd="/sbin/rmmod sf16a18_hb_fmac"
     eval $cmd
 }
 
